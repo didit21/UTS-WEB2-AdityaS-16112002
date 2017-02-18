@@ -1,7 +1,10 @@
 @extends('temp.index')
 @section('content')
 <div id="content">
-    Semua Kritik dan Saran :<br>
+    {{$showContent ['conten3']}}
+    {{$showContent ['conten3']}}
+    {{$showContent ['conten3']}}
+    <br>Semua Kritik dan Saran :<br>
     <table>
         <tr>
             <td align="center" width="120">Nama Lengkap</td>

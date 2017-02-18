@@ -11,15 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('login', function () {
-    return view('login');
-});
-Route::get('krisan', function () {
-    return view('krisan');
-});
-Route::get('edit', function () {
-    return view('edit');
-});
+Route::get('/', 'viewcontroller@index');
+
+Route::get('login', 'viewcontroller@login');
+
+Route::get('krisan', 'viewcontroller@krisan');
+
+Route::get('edit', 'viewcontroller@edits');
+
+Route::get('tampil', 'viewcontroller@tampil');
