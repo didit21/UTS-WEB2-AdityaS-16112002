@@ -6,6 +6,5 @@
 		<li><a href="{{URL::to('/')}}">HOME</a></li>
 		<li><a href="{{URL('krisan')}}">KRITIK & SARAN</a></li>
 		<li><a href="{{URL('login')}}">LOGIN</a></li>
-		<li><a href="{{URL('tampil')}}">TAMPIL</a></li>
 	</div>
 </div>

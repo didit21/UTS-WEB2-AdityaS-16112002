@@ -1,9 +1,6 @@
 @extends('temp.index')
 @section('content')
 <div id="content">
-    {{$showContent ['conten3']}}
-    {{$showContent ['conten3']}}
-    {{$showContent ['conten3']}}
     <br>Semua Kritik dan Saran :<br>
     <table>
         <tr>
